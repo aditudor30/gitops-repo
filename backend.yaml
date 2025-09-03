@@ -16,7 +16,7 @@ spec:
       - name: ghcr-secret
       containers:
       - name: backend-app
-        image: ghcr.io/aditudor30/backend-app-repo:latest
+        image: ghcr.io/aditudor30/backend-app-repo:dbfd914c31be8644f2f9c70feb909e06f22344b1
         ports:
         - containerPort: 8080
         env:
