@@ -17,7 +17,7 @@ The entire system is designed to take a code change from a developer's commit an
 This project uses a GitOps architecture with a clear separation of concerns, split into two repositories:
 
 1.  **[backend-app-repo](https://github.com/aditudor30/backend-app-repo):** The Application Source Code. This repo holds the Java application and its **CI** (Continuous Integration) pipeline.
-2.  **[gitops-repo](https://github.com/aditudor30/gitops-repo):** The "Single Source of Truth." This repo holds the Kubernetes manifests and is monitored by **ArgoCD** for **CD** (Continuous Delivery).
+2.  **[gitops-repo](https://github.com/aditudor30/gitops-repo):** This repo holds the Kubernetes manifests and is monitored by **ArgoCD** for **CD** (Continuous Delivery).
 
 ### Workflow Diagram
 
